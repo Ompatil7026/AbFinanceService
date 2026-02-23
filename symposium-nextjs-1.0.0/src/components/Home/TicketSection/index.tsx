@@ -46,7 +46,7 @@ const TicketSection = () => {
             <div className="flex flex-wrap items-center justify-between md:p-20 p-5">
 
               {/* BACKGROUND IMAGE */}
-              <div className="md:w-2/2 w-full -mt-10 absolute top-0 -left-1 md:block hidden">
+              <div className="md:w-2/2 w-full -mt-0 absolute top-0 -left-1 md:block hidden">
                 <Image
                   src="/images/ticket-section/ticket.png"
                   alt="Loan Banner"

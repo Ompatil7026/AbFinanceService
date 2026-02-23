@@ -147,7 +147,9 @@ const Header: React.FC = () => {
         </div>
       </div>
       {navbarOpen && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 z-40" />
+        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 z-40"
+        onClick={() => setNavbarOpen(false)}
+         />
       )}
 
       <div
@@ -184,7 +186,11 @@ const Header: React.FC = () => {
         </div>
         <nav className="flex flex-col items-start p-4">
           {headerData.map((item, index) => (
-            <MobileHeaderLink key={index} item={item} />
+            <MobileHeaderLink
+              key={index}
+              item={item}
+              onNavigate={() => setNavbarOpen(false)}
+            />
           ))}
           <div className="mt-4 flex flex-col space-y-4 w-full">
             <Link

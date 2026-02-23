@@ -12,7 +12,7 @@ const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (isMobile) {
       // 📱 Mobile → open default email app
         window.location.href =
-    "mailto:ashishbirajdar90@gmail.com?subject=Loan%20Enquiry%20-%20Speedy%20Loan%20Finance%20Services&body=Hello%20Team,%0D%0A%0D%0AI%20would%20like%20to%20enquire%20about%20the%20following%20loan:%0D%0A%0D%0A•%20Type%20of%20Loan:%20__________%0D%0A•%20Loan%20Amount:%20__________%0D%0A•%20City:%20__________%0D%0A•%20Employment%20Type:%20Salaried%20/%20Self-Employed%0D%0A%0D%0APlease%20contact%20me%20at%20your%20earliest%20convenience.%0D%0A%0D%0ARegards,%0D%0A__________";
+    "mailto:ashishbirajdar90@gmail.com?subject=Loan%20Enquiry%20-%20Ab%20-%20Finance%20Services&body=Hello%20Team,%0D%0A%0D%0AI%20would%20like%20to%20enquire%20about%20the%20following%20loan:%0D%0A%0D%0A•%20Type%20of%20Loan:%20__________%0D%0A•%20Loan%20Amount:%20__________%0D%0A•%20City:%20__________%0D%0A•%20Employment%20Type:%20Salaried%20/%20Self-Employed%0D%0A%0D%0APlease%20contact%20me%20at%20your%20earliest%20convenience.%0D%0A%0D%0ARegards,%0D%0A__________";
 
     } else {
       // 💻 Desktop → open Gmail Web

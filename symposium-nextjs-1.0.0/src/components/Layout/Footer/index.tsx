@@ -56,7 +56,7 @@ useEffect(() => {
     const subject = "Enquiry - Speedy Loan Finance Services";
 
     const body =
-      "Hello Speedy Loan Finance Services Team,%0D%0A%0D%0A" +
+      "Hello Ab Finance Services Team,%0D%0A%0D%0A" +
       "I would like to make an enquiry.%0D%0A%0D%0A" +
       `My Email: ${encodeURIComponent(userEmail)}%0D%0A%0D%0A` +
       "My Query:%0D%0A" +
@@ -67,10 +67,10 @@ useEffect(() => {
 
     if (isMobile) {
       window.location.href =
-        `mailto:loanspeedy@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+        `mailto:ashishbirajdar90@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
     } else {
       window.open(
-        `https://mail.google.com/mail/?view=cm&fs=1&to=loanspeedy@gmail.com&su=${encodeURIComponent(
+        `https://mail.google.com/mail/?view=cm&fs=1&to=ashishbirajdar90@gmail.com&su=${encodeURIComponent(
           subject
         )}&body=${body}`,
         "_blank"
@@ -169,7 +169,7 @@ useEffect(() => {
   {/* WhatsApp */}
   <li>
     <Link
-      href="https://wa.me/917350005590"
+      href="https://wa.me/919423398032"
       target="_blank"
       rel="noopener noreferrer"
       className="group"
@@ -194,7 +194,7 @@ useEffect(() => {
         <div className="grid md:grid-cols-12 grid-cols-1 items-center py-8">
           <div className="col-span-5">
             <p className="text-base font-normal text-PaleCerulean">
-              © All rights reserved , speedyloanfinance.com
+              © All rights reserved , AbFinanceServices.com
             </p>
             <p className="text-base font-normal text-PaleCerulean">
               Developed By Om Patil.
